@@ -19,7 +19,6 @@ jobs:
         with:
           repository: dragonflly/github-actions-course-example-e2e
           ref: main
-          token: ${{ secrets.access-token || secrets.GITHUB_TOKEN }}
       - name: Setup node
         uses: actions/setup-node@v4
         with:
